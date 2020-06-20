@@ -9,3 +9,7 @@ This project is a showcase of developing an e-commerce site from scratch with a 
 - SCSS, Sass for component styling 
 - Stripe, for payment processing
 - Heroku, for deployment
+
+### Minor deviations explored in this project 
+- Explicitly separated folder structure; "component-name.component.js" and "component-name.styles.scss" alternate naming convention
+- /components and /pages distinction 
