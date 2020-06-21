@@ -8,7 +8,7 @@ import ShopPage from "./pages/shop/shop.component";
 import Header from "./components/header/header.component";
 import SignInSignUpPage from "./pages/signin-signup/signin-signup.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
-import { setCurrentUser } from "./redux/user/user.action";
+import { setCurrentUser } from "./redux/user/user.actions";
 
 class App extends React.Component {
   // dont need this constructor anymore because we are importing setCurrentUser action and dispatching it instead of using setState.
